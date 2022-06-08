@@ -4,7 +4,7 @@ const  UserForm = (props) =>{
     const [lastname,setLastname] = useState("");
     const [email,setEmail] = useState("");
     const [password,setPassword] = useState("");
-    const [cpassword,setCpassword] = useState("");
+    const [cpassword,setCpassword] = useState("");  
 
 
 
