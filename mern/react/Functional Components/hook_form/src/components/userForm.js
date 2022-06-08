@@ -29,15 +29,16 @@ return(
         </div>
         <div>
         <label>password</label>
-        <input type="text" onChange={(e) =>setPassword(e.target.value)}></input>
+        <input type="password" onChange={(e) =>setPassword(e.target.value)}></input>
         </div>
         <div>
         <label>confirm password</label>
-        <input type="text" onChange={(e) =>setCpassword(e.target.value)}></input>
+        <input type="password" onChange={(e) =>setCpassword(e.target.value)}></input>
         </div>
     </form>
     <p>name: {firstname} {lastname}</p>
     <p>Email: {email}</p>
+    <p>password:*****</p>
     </>
 )
 }
